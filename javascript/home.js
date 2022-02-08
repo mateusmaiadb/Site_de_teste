@@ -1,0 +1,1 @@
+document.write("Arquivo JS sendo exibido. Por: Mateus Pereira");
