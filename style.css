@@ -27,3 +27,16 @@ nav{
   font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif
   
 }
+button{
+  background-color: rgb(180, 15, 15);
+  color: #a7a7a7;
+  margin: 15px;
+  border: 10px;
+}
+
+main{
+  background: url("/img/background.jpg") no-repeat center center;
+  background-size: cover ;
+  height: 92vh;
+}
+
