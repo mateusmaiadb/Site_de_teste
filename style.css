@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 a {
@@ -47,11 +48,13 @@ main {
 
 .nav-list li {
   /* opacity: 0; */
+  
   margin-left: 32px;
 }
 
 .home-menu {
   cursor: pointer;
 }
+
 
 
