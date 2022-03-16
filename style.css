@@ -1,7 +1,24 @@
 * {
   margin: 0;
   padding: 0;
-  
+}
+
+body {
+  background-color: #333344;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #e4dada;
+  padding: 15px;
+}
+
+p {
+  /* background-color: #e4dada; */
+  color: #e4dada;
+
+  text-align: center;
 }
 
 a {
@@ -30,13 +47,12 @@ nav {
 button {
   background-color: rgb(180, 15, 15);
   color: #a7a7a7;
-  margin: 15px;
+  margin: 110px;
   border: 10px;
 }
 
 main {
   background: url("/img/background.jpg") no-repeat center center;
-  
   background-size: cover;
   height: 92vh;
 }
@@ -48,7 +64,7 @@ main {
 
 .nav-list li {
   /* opacity: 0; */
-  
+
   margin-left: 32px;
 }
 
@@ -56,5 +72,8 @@ main {
   cursor: pointer;
 }
 
-
-
+@media screen and(max-width:775px) {
+  .nav-list {
+    position: absolute;
+  }
+}
