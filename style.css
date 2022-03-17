@@ -17,7 +17,6 @@ h2 {
 p {
   /* background-color: #e4dada; */
   color: #e4dada;
-
   text-align: center;
 }
 
@@ -64,8 +63,7 @@ main {
 
 .nav-list li {
   /* opacity: 0; */
-
-  margin-left: 32px;
+  margin-left: 30px;
 }
 
 .home-menu {
@@ -76,4 +74,9 @@ main {
   .nav-list {
     position: absolute;
   }
+}
+
+.rodape{
+  position: absolute;
+  padding-left: 40px;
 }
