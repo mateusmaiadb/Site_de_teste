@@ -4,51 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Programmer</title>
   </head>
   <body>
-    <header>
-      <img alt="foto" src="img/homeProjeto.svg" />
+    <header id="header">
       <nav>
-        <button>
-          <a
-            href="https://www.linkedin.com/in/mateuspereira-programmer/"
-            target="_blank"
-            rel="external"
-            >Linkedin aqui!</a
-          >
-        </button>
+        <a href="/"><abbr title="Foto Autor"><img width="50" alt="foto" src="img/homeProjeto.svg" /></abbr></a>
         
-        <button><a href="pages/second-page.html">Próxima página</a></button>
+        <div class="home-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="./pages/sobre.html">Sobre</a></li>
+          <li><a href="/">Contatos</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <div style="text-align: center">
-        <h1>Olá! Seja muito bem vindo(a)!</h1>
-        <div class="corpo">
-          <p>
-            Me chamo Mateus Pereira, atualmente trabalho na área de programação.
-            Sou <code>front-end,</code>amo minha profissão e estou sempre disposto
-            a novos aprendizados.
-          </p>
-        </div>
-      </div>
+      <h1>Olá tudo bem?</h1>
+      <hr>
+      <h2>Site de estudos</h2>
+      <p>Este site é totalmente destinado aos meus estudos e testes em HTML e CSS. Fiz esse repositório teste justamente para práticar mais sobre algumas boas práticas do <code>front-end.</code></code></p>
+      <br>
+      <p>Na opção "Sobre" no cabeçalho da página você pode encontrar meus contatos.</p>
     </main>
 
-    <footer>
-      <button>
-        <a
-          href="https://www.instagram.com/meda1mao/"
-          target="_blank"
-          rel="external"
-          >Link sobre programação</a
-        >
-      </button>
-    </footer>
 
-    
+    <footer class="rodape"><a href="https://www.linkedin.com/in/mateuspereira-programmer/"><abbr title="Logo Linkedin"><img width="30" src="img/linkedin.svg" alt="Logo do Linkedin"></abbr></a></footer>
 
-    <script src="home.js"></script>
+    <script src="javascript/home.js"></script>
   </body>
 </html>
+

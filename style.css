@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333344;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #e4dada;
+  padding: 15px;
+}
+
+p {
+  /* background-color: #e4dada; */
+  color: #e4dada;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  background: #242427;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+}
+button {
+  background-color: rgb(180, 15, 15);
+  color: #a7a7a7;
+  margin: 110px;
+  border: 10px;
+}
+
+main {
+  background: url("/img/background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  /* opacity: 0; */
+  margin-left: 30px;
+}
+
+.home-menu {
+  cursor: pointer;
+}
+
+@media screen and(max-width:775px) {
+  .nav-list {
+    position: absolute;
+  }
+}
+
+.rodape{
+  position: absolute;
+  padding-left: 40px;
+}
