@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-  font-size: 20px;  
+  font-size: 20px;
   color: #e4dada;
   text-align: center;
 }
@@ -57,7 +57,7 @@ main {
 }
 
 .nav-list {
-  font-size: 20px;  
+  font-size: 20px;
   font-style: italic;
   list-style: none;
   display: flex;
@@ -71,11 +71,6 @@ main {
   cursor: pointer;
 }
 
-@media only screen and(max-width:775px) {
-  .nav-list {
-    position: absolute;
-  }
-}
 
 .rodape {
   position: absolute;
@@ -83,13 +78,31 @@ main {
 }
 
 .card {
-
-  border-radius: 50px;
+  border-radius: 20px;
   background: #292929;
   box-shadow: 18px 18px 20px #1f1f1f, -18px -18px 36px #918484;
-  margin-top: 2px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 30px;
-  padding: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+  padding: 5px;
 }
+
+.imagemCentral {
+  margin: auto;
+  border-radius: 20px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 60%;
+}
+
+footer{
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+
